@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return render_template('index.html', sum123=98)
+    return render_template('index.html', sum123=124)
 
 
 if __name__ == '__main__':
